@@ -1,0 +1,40 @@
+.topbar li
+{
+    list-style: none;
+    padding: 5px;
+}
+.topbar a
+{
+    text-decoration: none;
+    color: gray;
+    position: relative;
+}
+.topbar a::before
+{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    background-color: gray;
+    transition: width 0.25s ease-out;
+}
+.topbar a:hover::before
+{
+    width: 100%;
+}
+.topbar ul
+{
+    padding: 15px;
+    display: flex;
+    margin: 0;
+}
+.topbar
+{
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
