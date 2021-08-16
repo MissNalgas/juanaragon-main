@@ -6,11 +6,17 @@
     min-height: 100vh;
     justify-content: center;
 }
-.title
+.content
 {
-    color: rgb(15, 15, 15);
+    font-size: 9vw;
 }
 .content a
 {
-    color: rgb(146, 144, 144);
+    color: rgb(146, 144, 144);   
+}
+@media screen and (min-width: 600px) {
+    .content
+    {
+        font-size: 2em;
+    }
 }

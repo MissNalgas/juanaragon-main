@@ -86,18 +86,22 @@ export default function Body() {
     return  <div className={styles.container}>
                 <div className={styles.leftSide}>
                     <div mycontent="uno" className={styles.textCard+" bodyCard"}>
+                        <img className={styles.mobileImage} src={preloadedImages[0]} alt="Lnk"/>
                         <h3>Lnk</h3>
                         <p>Lnk is web url manager</p>
                     </div>
                     <div mycontent="dos" className={styles.textCard+" bodyCard"}>
+                        <img className={styles.mobileImage} src={preloadedImages[1]} alt="Lnk"/>
                         <h3>PassHidder</h3>
                         <p>PassHidder is an Angular module</p>
                     </div>
                     <div mycontent="tres" className={styles.textCard+" bodyCard"}>
+                        <img className={styles.mobileImage} src={preloadedImages[2]} alt="Lnk"/>
                         <h3>Chesting Table</h3>
                         <p>Chesting table is a minecraft mod</p>
                     </div>
                     <div mycontent="cuatro" className={styles.textCard+" bodyCard"}>
+                        <img className={styles.mobileImage} src={preloadedImages[3]} alt="Lnk"/>
                         <h3>MssnApps</h3>
                         <p>MssnApps is a WebDesign agency</p>
                     </div>
