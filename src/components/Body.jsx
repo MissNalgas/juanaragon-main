@@ -5,6 +5,7 @@ import lnkImage from "../images/lnk.jpg";
 import passHImage from "../images/passhidder.jpg";
 import chestingImage from "../images/chesting_table.jpg";
 import mssnAppsImage from "../images/mssnapps.jpg";
+import petsImage from "../images/pets.jpg";
 
 
 import React from "react";
@@ -28,6 +29,7 @@ const compare = (elementA, elementB) => {
 
 const preloadedImages = [
     lnkImage,
+    petsImage,
     passHImage,
     chestingImage,
     mssnAppsImage,
@@ -77,6 +79,8 @@ export default function Body() {
                 return <MyImage src={preloadedImages[3]}/>;
             case "cinco":
                 return <MyImage src={preloadedImages[4]}/>;
+            case "seis":
+                return <MyImage src={preloadedImages[5]}></MyImage>;
             default:
                 return <MyImage src={preloadedImages[5]}/>;
         }
@@ -89,21 +93,30 @@ export default function Body() {
                         <img className={styles.mobileImage} src={preloadedImages[0]} alt="Lnk"/>
                         <h3>Lnk</h3>
                         <p>Lnk is web url manager</p>
+                        <a href="https://mssnapps.com/lnk">live</a>
                     </div>
                     <div mycontent="dos" className={styles.textCard+" bodyCard"}>
-                        <img className={styles.mobileImage} src={preloadedImages[1]} alt="Lnk"/>
-                        <h3>PassHidder</h3>
-                        <p>PassHidder is an Angular module</p>
+                        <img className={styles.mobileImage} src={preloadedImages[1]} alt="pets"/>
+                        <h3>Pets</h3>
+                        <p>Pets is a showcase of my furry friends</p>
+                        <a href="https://mssnapps.com/pets">live</a>
                     </div>
                     <div mycontent="tres" className={styles.textCard+" bodyCard"}>
-                        <img className={styles.mobileImage} src={preloadedImages[2]} alt="Lnk"/>
+                        <img className={styles.mobileImage} src={preloadedImages[2]} alt="passhidder"/>
+                        <h3>PassHidder</h3>
+                        <p>PassHidder is an Angular module</p>
+                        <a href="https://www.npmjs.com/package/passhidder">live</a>
+                    </div>
+                    <div mycontent="cuatro" className={styles.textCard+" bodyCard"}>
+                        <img className={styles.mobileImage} src={preloadedImages[3]} alt="chesting"/>
                         <h3>Chesting Table</h3>
                         <p>Chesting table is a minecraft mod</p>
                     </div>
-                    <div mycontent="cuatro" className={styles.textCard+" bodyCard"}>
-                        <img className={styles.mobileImage} src={preloadedImages[3]} alt="Lnk"/>
+                    <div mycontent="cinco" className={styles.textCard+" bodyCard"}>
+                        <img className={styles.mobileImage} src={preloadedImages[4]} alt="mssnapps"/>
                         <h3>MssnApps</h3>
                         <p>MssnApps is a WebDesign agency</p>
+                        <a href="https://mssnapps.com/">live</a>
                     </div>
                 </div>
                 <div className={styles.rightSide}>
