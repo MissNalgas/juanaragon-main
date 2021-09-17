@@ -92,30 +92,38 @@ export default function Body() {
                     <div mycontent="uno" className={styles.textCard+" bodyCard"}>
                         <img className={styles.mobileImage} src={preloadedImages[0]} alt="Lnk"/>
                         <h3>Lnk</h3>
-                        <p>Lnk is web url manager</p>
+                        <p>I'm a person that always uses multiple devices at the same time, so I needed a way to share urls between them. That's how <i>Lnk</i> was born. The idea is simple, you paste the url in the app and it gets replicated to all the clients. If you click the notification the url opens automatically in a new tab.</p>
+                        <p>You can use this credentials to log in:<br/>
+                        <i><b>user: </b>test@mssnapps.com</i><br/>
+                        <i><b>password: </b>ThisIsNotThePass</i><br/>
+                        </p>
                         <a href="https://mssnapps.com/lnk">live</a>
+                        
                     </div>
                     <div mycontent="dos" className={styles.textCard+" bodyCard"}>
                         <img className={styles.mobileImage} src={preloadedImages[1]} alt="pets"/>
                         <h3>Pets</h3>
-                        <p>Pets is a showcase of my furry friends</p>
+                        <p>In my Job we use VM's to work, so it's hard to share pictures of my pets with my coworkers. Not anymore.</p>
+                        <p>The gallery gets the pictures on scroll, and these are compressed so the app is designed to load fast on any device.</p>
                         <a href="https://mssnapps.com/pets">live</a>
                     </div>
                     <div mycontent="tres" className={styles.textCard+" bodyCard"}>
                         <img className={styles.mobileImage} src={preloadedImages[2]} alt="passhidder"/>
                         <h3>PassHidder</h3>
-                        <p>PassHidder is an Angular module</p>
-                        <a href="https://www.npmjs.com/package/passhidder">live</a>
+                        <p>I saw something like this somewhere on the web, so I turned it into an Angular module.</p>
+                        <a href="https://www.npmjs.com/package/passhidder">npm</a>
                     </div>
                     <div mycontent="cuatro" className={styles.textCard+" bodyCard"}>
                         <img className={styles.mobileImage} src={preloadedImages[3]} alt="chesting"/>
                         <h3>Chesting Table</h3>
-                        <p>Chesting table is a minecraft mod</p>
+                        <p>I've always liked programming, and that's what I do in my free time. I made this mod as a joke, it basically is a chest that looks like crafting table, instead of having 27 slots, it has 10. I decided to take it even farther and made a furnace and a backpack.</p>
+                        <p><b>Ps.</b> I love the furnace idea because it cooks faster depending on how many items there are in the fuel slot.</p>
+                        <p>1 slot = 1x speed, 3 slots = 3x speed.</p>
                     </div>
                     <div mycontent="cinco" className={styles.textCard+" bodyCard"}>
                         <img className={styles.mobileImage} src={preloadedImages[4]} alt="mssnapps"/>
                         <h3>MssnApps</h3>
-                        <p>MssnApps is a WebDesign agency</p>
+                        <p>MssnApps is my web design agency. When I have the resources I plan to make it something unique.</p>
                         <a href="https://mssnapps.com/">live</a>
                     </div>
                 </div>
