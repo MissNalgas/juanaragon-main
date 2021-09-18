@@ -116,14 +116,14 @@ export default function Body() {
                     <div mycontent="cuatro" className={styles.textCard+" bodyCard"}>
                         <img className={styles.mobileImage} src={preloadedImages[3]} alt="chesting"/>
                         <h3>Chesting Table</h3>
-                        <p>I've always liked programming, and that's what I do in my free time. I made this mod as a joke, it basically is a chest that looks like crafting table, instead of having 27 slots, it has 10. I decided to take it even farther and made a furnace and a backpack.</p>
+                        <p>I've always liked programming, and that's what I do in my free time. I made this mod as a joke, it basically is a chest that looks like a crafting table, instead of having 27 slots, it has 10. I decided to take it even further and made a furnace and a backpack.</p>
                         <p><b>Ps.</b> I love the furnace idea because it cooks faster depending on how many items there are in the fuel slot.</p>
                         <p>1 slot = 1x speed, 3 slots = 3x speed.</p>
                     </div>
                     <div mycontent="cinco" className={styles.textCard+" bodyCard"}>
                         <img className={styles.mobileImage} src={preloadedImages[4]} alt="mssnapps"/>
                         <h3>MssnApps</h3>
-                        <p>MssnApps is my web design agency. When I have the resources I plan to make it something unique.</p>
+                        <p>MssnApps is my web design agency. When I have the resources I plan to make something unique out of it.</p>
                         <a href="https://mssnapps.com/">live</a>
                     </div>
                 </div>
